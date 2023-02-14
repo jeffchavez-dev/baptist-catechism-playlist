@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+h1 {
+    margin: 2em;
+}
+
 .audio-track {
     width: 150px;
     height: 3px;
