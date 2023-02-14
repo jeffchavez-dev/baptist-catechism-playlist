@@ -18,3 +18,10 @@
     height: 3px;
     background-color: #474747
 }
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
