@@ -1,4 +1,7 @@
 body {
+    background-image: url(/download.jfif);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     text-align: center;
     display: flex;
