@@ -11,8 +11,16 @@ body {
     align-items: center;
 }
 
-h1 {
-    
+.media-player-section {
+    position: relative;
+}
+.media-player-section::before {
+    content: '';
+    background-color: #474747;
+    position: absolute;
+    padding: 1em;
+    opacity: .8;
+    z-index: 1;
 }
 
 .audio-track {
