@@ -13,7 +13,8 @@ body {
 
 .media-player-section {
     position: relative;
-    z-index: 1;
+    z-index: 9;
+    padding: 1em;
 }
 .media-player-section::before {
     content: '';
@@ -23,11 +24,14 @@ body {
     bottom:0;
     right: 0;
     left: 0;
-    padding: 1em;
+    padding: 3em;
     opacity: .8;
-    z-index: 9;
-}
+    z-index: 1;
 
+}
+.media-player {
+    z-index: 10 ;
+}
 .audio-track {
     width: 150px;
     height: 3px;
