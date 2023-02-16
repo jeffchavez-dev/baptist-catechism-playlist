@@ -26,8 +26,7 @@ body {
     left: 0;
     padding: 3em;
     opacity: .8;
-    z-index: 1;
-
+   
 }
 .media-player {
     z-index: 10 ;
