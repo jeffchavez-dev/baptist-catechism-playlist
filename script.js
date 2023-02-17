@@ -17,3 +17,12 @@ let treck; // Variable with track index
 window. onload = function() {
     treck = 0; // Assign zero to the variable
 }
+
+function switchTreck (numTreck) {
+    // Change the src attribute value
+    audio.src = './audio/' + playlist[numTreck];
+    // Assign a song time of zero
+    audio. currentTime = 0;
+    // Play the song
+    audio.play();
+}
