@@ -10,3 +10,10 @@ let playlist = [
     'Baptist Catechism 1-5.mp3',
     'Baptist Catechism 6-10.mp3'
 ]
+
+let treck; // Variable with track index
+ 
+// Event before page loading
+window. onload = function() {
+    treck = 0; // Assign zero to the variable
+}
